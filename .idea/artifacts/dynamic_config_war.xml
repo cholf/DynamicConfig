@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="dynamic_config:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="dynamicconfig.war">
-      <element id="artifact" artifact-name="dynamic_config:war exploded" />
-    </root>
-  </artifact>
-</component>
