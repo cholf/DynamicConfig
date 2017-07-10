@@ -1,16 +1,16 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="DynamicConfig:war exploded">
+  <artifact type="exploded-war" name="dynamic_config:war exploded">
     <output-path>$PROJECT_DIR$/target/dynamicconfig</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="DynamicConfig" />
+          <element id="module-output" name="dynamic_config" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/dynamicconfig/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="DynamicConfig/web/Web" />
+      <element id="javaee-facet-resources" facet="dynamic_config/web/Web" />
     </root>
   </artifact>
 </component>
