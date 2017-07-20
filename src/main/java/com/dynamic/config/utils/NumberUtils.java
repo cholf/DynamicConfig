@@ -1,13 +1,23 @@
 package com.dynamic.config.utils;
 
 /**
- * Created by IntelliJ IDEA.
- * User: gangwen.xu
- * Date: 17-7-14
- * Time: 下午5:10
- * 类描述: 数字相关工具处理
+ * Created by IntelliJ IDEA. User: gangwen.xu Date: 17-7-14 Time: 下午5:10 类描述: 数字相关工具处理
  */
 public class NumberUtils {
+
+    public static long toLong(String str) {
+        return toLong(str, 0L);
+    }
+
+    public static long toLong(String str, long def) {
+        if (str == null)
+            return def;
+        try {
+            return Long.parseLong(str, 10);
+        } catch (NumberFormatException e) {
+            return def;
+        }
+    }
 
     /**
      * 字符转int--默认异常返回0
